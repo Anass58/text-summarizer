@@ -77,5 +77,5 @@ Contributions are welcome! Feel free to fork, open an issue, or submit a pull re
 This project is licensed under the MIT License.
 
 ## 📧 Contact
-For any inquiries, contact [your email or social link].
+For any inquiries, contact [a55.44.as47@gmail.com].
 
