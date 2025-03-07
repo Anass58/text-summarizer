@@ -1,15 +1,81 @@
-# 📝 Text Summarizer
+# 📄 Text Summarizer
 
-A simple tool to summarize large text using OpenAI's GPT-3.5.
+A Python-based text summarization tool using OpenAI's GPT API. This project extracts concise summaries from long-form text to save time and enhance content understanding.
 
-## How to Run:
+## 📂 Project Structure
+```
+text-summarizer/
+├── main.py              # Main application file
+├── requirements.txt     # Required dependencies
+└── README.md            # Project documentation
+```
+
+## 🚀 Features
+- Summarize long-form text into key insights.
+- Customize summary length for flexibility.
+- Simple and easy-to-use interface.
+
+## 🛠️ Installation
 1. Clone the repository:
-https://github.com/Anass58/text-summarizer.git
-2. Install the dependencies:
+
+```bash
+git clone https://github.com/yourusername/text-summarizer.git
+cd text-summarizer
+```
+
+2. Create a virtual environment and activate it:
+
+```bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On Linux/macOS:
+source venv/bin/activate
+```
+
+3. Install dependencies:
+
+```bash
 pip install -r requirements.txt
-3. Set your OpenAI API key in `main.py`:
-4. Run the tool:
+```
+
+## 📊 Usage
+1. Ensure you have an OpenAI API key:
+
+   Sign up at [OpenAI](https://platform.openai.com/signup) and get your API key.
+
+2. Set your API key:
+
+```bash
+export OPENAI_API_KEY='your-api-key-here'  # Linux/macOS
+set OPENAI_API_KEY='your-api-key-here'    # Windows
+```
+
+3. Run the summarizer:
+
+```bash
 python main.py
-## Features:
-- Summarizes large blocks of text.
-- Customizable summary length.
+```
+
+4. Input the text you want to summarize and receive a concise summary.
+
+## 📌 Example Output
+```
+Enter text to summarize: This is a long document...
+Summary: This document discusses...
+```
+
+## 📈 Customization
+You can adjust:
+- **Summary length**: Control how detailed the summary is.
+- **Model parameters**: Fine-tune OpenAI API parameters.
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork, open an issue, or submit a pull request.
+
+## 📜 License
+This project is licensed under the MIT License.
+
+## 📧 Contact
+For any inquiries, contact [your email or social link].
+
